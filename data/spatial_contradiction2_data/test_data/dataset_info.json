@@ -1,0 +1,382 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "messages": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "visible_output_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "golden_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "golden_response": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_messages": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "original_problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_output_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_golden_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_golden_response": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mod_messages": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "mod_problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mod_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mod_output_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dataset_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_dataset_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "problem_hash": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "graph_hash": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "abstract_path_hash": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "anchor_entity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "anchor_coordinate": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "target_entity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hop_count": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "difficulty": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "bucket": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "directions": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "distances": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "num_diagonal_edges": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "num_multi_cell_edges": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "num_reversed_statements": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "phrase_semantic_families": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "phrase_grammar_roles": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "statement_syntax_families": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "statement_family_keys": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "phrase_kinds": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "solution_phrase_semantic_families": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "solution_phrase_grammar_roles": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "solution_step_syntax_families": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "solution_step_family_keys": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "surface_phrase_family_allowlist": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "max_distance": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "statement_order": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "anchor_template_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "query_template_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "edges": {
+      "feature": {
+        "amount_text": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "child": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "distance": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "parent": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "path_direction": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "phrase_grammar_role": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "phrase_id": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "phrase_kind": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "phrase_semantic_family": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "statement_direction": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "statement_family_id": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "statement_family_key": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "statement_reference": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "statement_reversed": {
+          "dtype": "bool",
+          "_type": "Value"
+        },
+        "statement_subject": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "statement_syntax_family": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "statement_text": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "transformation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "transformation_version": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "coordinate_readout": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mod_equals_original_answer": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "generator_version": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "core_version": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "generator_seed": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "instance_seed": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "mit"
+}

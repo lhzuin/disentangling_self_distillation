@@ -1,0 +1,37 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "10c7a1ec8fe5a54b",
+  "_format_columns": [
+    "answer",
+    "base",
+    "bucket",
+    "dataset_name",
+    "difficulty",
+    "messages",
+    "mod_equals_original_answer",
+    "module",
+    "original_answer",
+    "original_messages",
+    "original_output_text",
+    "original_problem",
+    "output_text",
+    "output_tokens",
+    "problem",
+    "problem_hash",
+    "source",
+    "source_dataset_name",
+    "source_id",
+    "split",
+    "teacher_question_had_decimals",
+    "transformation",
+    "transformation_version"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}

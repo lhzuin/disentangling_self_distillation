@@ -1,0 +1,118 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "messages": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_output_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_messages": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "dataset_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_dataset_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "problem_hash": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "module": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "difficulty": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "bucket": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "base": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "transformation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "transformation_version": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "mod_equals_original_answer": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "output_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "teacher_question_had_decimals": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "apache-2.0"
+}

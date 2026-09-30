@@ -1,0 +1,29 @@
+# Current multi-model environment for contextualized self-distillation.
+#
+# Includes the Transformers/TRL/vLLM stack used by the model registry and the
+# lm-evaluation-harness version used by scripts/run_lmeval.py.
+# For legacy Qwen2.5 reproduction, use requirements.txt in a separate venv.
+
+torch==2.11.0
+transformers==5.5.1        # provides MistralCommonBackend/Mistral3ForConditionalGeneration and is accepted by the pinned vLLM release
+tokenizers==0.22.2         # compatible tokenizer release for the pinned Transformers stack
+accelerate==1.13.0         # earliest release with confirmed 4-bit bitsandbytes support under transformers v5
+peft==0.18.1               # earliest release without the HybridCache import crash under transformers v5
+datasets>=4.7.0,<5.0.0     # trl==0.27.0 requires datasets>=4.7.0; stay below the next major API boundary
+rich==14.2.0
+vllm==0.20.0
+trl==0.27.0                # earliest 0.x release with the required Transformers-v5 compatibility fixes
+openai==2.6.1
+tqdm==4.67.1
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.7
+flashinfer-python==0.6.8.post1
+wandb==0.22.2
+pandas==2.3.3
+deepspeed==0.18.4
+bitsandbytes
+math-verify[antlr4_13_2]
+latex2sympy2_extended
+sentence-transformers
+lm_eval[ifeval]==0.4.12
