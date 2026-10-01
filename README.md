@@ -2,8 +2,7 @@
 
 This repository contains the code, data, analysis, and toy-model artifacts for
 [*Disentangling Self-Distillation: Measuring and Modeling Acquisition and
-Retention*](https://arxiv.org/abs/XXXX.XXXXX). The arXiv identifier and final
-citation will replace this placeholder when the submission is available.
+Retention*](https://arxiv.org/abs/2609.39494).
 
 The project is a research codebase for studying **on-policy self-distillation for continual adaptation of language models**. A student model is optimized against a teacher distribution derived from the same model family, while the teacher can receive privileged, instance-specific context such as reference responses, hints, feedback, rationales, source documents, or successful sibling trajectories.
 
