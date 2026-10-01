@@ -1,6 +1,6 @@
 # Disentangling Self-Distillation
 
-This repository contains the code, data, analysis, and toy-model artifacts for
+This repository contains the code, data, analysis, and controlled model artifacts for
 [*Disentangling Self-Distillation: Measuring and Modeling Acquisition and
 Retention*](https://arxiv.org/abs/2609.39494).
 
@@ -8,7 +8,7 @@ The project is a research codebase for studying **on-policy self-distillation fo
 
 The framework exposes the main self-distillation design axes independently: rollout source (student or teacher), divergence direction (forward KL, reverse KL, or intermediate generalized Jensen-Shannon objectives), teacher coupling (frozen or synchronized/EMA-style), supervision source (teacher distribution or dataset target), contextualization strategy, and prompt/template realization.
 
-This repository is based on and extends Idan Shenfeld and collaborators' open-source [SDFT Self-Distillation project](https://github.com/idanshen/Self-Distillation), associated with the paper [*Self-Distillation Enables Continual Learning*](https://arxiv.org/abs/2601.19897). It is an independent research extension, not the official upstream distribution. Its current architecture includes a model registry, contextualization strategies, multi-dataset adapters, model-aware baselines, reproducible lm-eval integration, experiment orchestration, cross-experiment metric extraction, and a mechanism-isolation toy model.
+This repository is based on and extends Idan Shenfeld and collaborators' open-source [SDFT Self-Distillation project](https://github.com/idanshen/Self-Distillation), associated with the paper [*Self-Distillation Enables Continual Learning*](https://arxiv.org/abs/2601.19897). It is an independent research extension, not the official upstream distribution. Its current architecture includes a model registry, contextualization strategies, multi-dataset adapters, model-aware baselines, reproducible lm-eval integration, experiment orchestration, cross-experiment metric extraction, and a mechanism-isolation controlled model.
 
 ## Highlights
 
@@ -21,11 +21,11 @@ This repository is based on and extends Idan Shenfeld and collaborators' open-so
 - **Sequential and single-phase experiment orchestration** with resumable, model-aware progress tracking.
 - **Checkpoint evaluation and lm-eval-harness integration** with reproducibility metadata and model-aware baselines.
 - **Cross-experiment raw metric extraction** for final accuracy, learning deltas, response length, training dynamics, checkpoint dynamics, and lm-eval results.
-- **Standalone mechanism-isolation toy model** for controlled studies of KL direction, rollout policy, contextual information, and teacher synchronization.
+- **Standalone mechanism-isolation controlled model** for controlled studies of KL direction, rollout policy, contextual information, and teacher synchronization.
 
 ## Repository lineage
 
-The project builds directly on the SDFT implementation from [idanshen/Self-Distillation](https://github.com/idanshen/Self-Distillation), which implements on-policy self-distillation for continual learning. This repository provides a broader experimental framework around that training method, covering multiple model families, datasets, contextualization policies, evaluation protocols, analysis workflows, and controlled toy-model experiments.
+The project builds directly on the SDFT implementation from [idanshen/Self-Distillation](https://github.com/idanshen/Self-Distillation), which implements on-policy self-distillation for continual learning. This repository provides a broader experimental framework around that training method, covering multiple model families, datasets, contextualization policies, evaluation protocols, analysis workflows, and controlled model experiments.
 
 When using this repository, cite *Disentangling Self-Distillation: Measuring and
 Modeling Acquisition and Retention* and the upstream SDFT work as appropriate.
@@ -281,7 +281,7 @@ Generated folders such as `outputs*`, `metrics_out`, `baseline_results`, `logs`,
 - [Running training, evaluation, lm-eval, and metrics](docs/RUNNING.md)
 - [Architecture and data flow](docs/ARCHITECTURE.md)
 - [Extending the codebase](docs/EXTENDING.md)
-- [Contextual self-distillation toy model](docs/TOY_MODEL.md)
+- [Contextual self-distillation controlled model](docs/TOY_MODEL.md)
 - [Paper figures and statistical tables](figures/README.md)
 - [Dataset provenance and licensing](data/README.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
